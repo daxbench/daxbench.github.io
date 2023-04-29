@@ -6,7 +6,7 @@
         content="DaXBench: Benchmarking Deformable Object Manipulation with Differentiable Physics.">
   <meta name="keywords" content="Deformable Object Manipulation, Differentiable Physics, Benchmarking">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>DaXBench: Benchmarking Deformable Object Manipulation with Differentiable Physics</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -58,25 +58,6 @@
       </span>
       </a>
 
-      <!-- <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div> -->
     </div>
 
   </div>
@@ -91,23 +72,25 @@
           <h1 class="title is-1 publication-title">DaXBench: Benchmarking Deformable Object Manipulation with Differentiable Physics</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Siwei CHEN</a><sup>*1,2</sup>,</span>
-            <span class="author-block">
-              <a href="https://utkarshsinha.com">Yiqing XU</a><sup>*1</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Cunjun YU</a><sup>*1</sup>,
+              Siwei CHEN<sup>*1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Linfeng LI</a><sup>1</sup>,
+              Yiqing XU<sup>*1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Xiao MA</a><sup>2</sup>,
+              Cunjun YU<sup>*1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Zhongwen XU</a><sup>2</sup>,
+              Linfeng LI<sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">David Hsu</a><sup>1</sup>
+              Xiao MA<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Zhongwen XU<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              David Hsu<sup>1</sup>
             </span>
           </div>
 
@@ -167,49 +150,27 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser">
+<section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section> -->
-
-
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
+      <div class="columns is-centered">
+        <div class="column is-narrow">
+          <img id="teaser1" src="./static/gif/cloth_final.gif" alt="Teaser 1" height="100%">
+          <figcaption class="subtitle has-text-centered">Folding cloth.</figcaption>
         </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="column is-narrow">
+          <img id="teaser2" src="./static/gif/water_final.gif" alt="Teaser 2" height="100%">
+          <figcaption class="subtitle has-text-centered">Pouring water.</figcaption>
         </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="column is-narrow">
+          <img id="teaser3" src="./static/gif/soup_final.gif" alt="Teaser 3" height="100%">
+          <figcaption class="subtitle has-text-centered">Pouring soup.</figcaption>
         </div>
       </div>
+      
     </div>
   </div>
-</section> -->
+</section>
 
 
 <section class="section">
@@ -259,8 +220,7 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">A comparison with the existing Simulators/Benchmarks</h2>
-    
+        <h2 class="title is-3">A comparison with the existing Simulators/Benchmarks</h2>   
         <div class="content has-text-justified">
           <img src="./static/images/comparision_simulators.jpg" alt="Comparison Image">
           <p>Comparison among the simulators for Deformable Object Manipulation.</p>
@@ -268,7 +228,7 @@
       </div>
     </div>
 
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Deformable Objects supported by DaxBench</h2>
         <div class="columns is-4">
@@ -293,9 +253,9 @@
       </div>
     </div>
 
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered ">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">DOM Objects and Tasks covered by DaxBench</h2>
+        <h2 class="title is-3">Deformable Object Manipulation Tasks covered by DaxBench</h2>
         <p>DaxBench supports a wide variety of deformable objects and implements the following representative DOM tasks in daily life. </p>
         <div class="columns is-5">
           <div class="column">
@@ -303,7 +263,7 @@
             <figcaption>Pour Soup</figcaption>
           </div>
           <div class="column">
-            <img src="./static/images/tasks/shape_ropeshape_rope">
+            <img src="./static/images/tasks/shape_rope.jpg", alt="shape_rope">
             <figcaption>Push Rope</figcaption>
           </div>
           <div class="column">
@@ -332,7 +292,6 @@
       
           <div class="content has-text-justified">
             <img src="./static/images/DOM_methods.jpg" alt="Comparison Image">
-            <p>Methods on Deformable Object Manipulation with respect to different setups.</p>
           </div>
         </div>
       </div>
@@ -384,32 +343,31 @@
     
 
 
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
+    <!-- Related Links -->
+    <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
         <div class="content has-text-justified">
           <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
+            We're excited to introduce DaXBench, a versatile differentiable simulation framework for deformable object manipulation tasks. As the first platform to simulate liquids, ropes, fabrics, and elastoplastics, DaXBench opens up new possibilities for research and comparison. With novel tasks like WhipRope and PourSoup, we're eager to see how this tool can enhance the development of DOM methods and shed light on the benefits of differentiable-physics-based methods. 
           </p>
           <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+            Here are some handy links related to the project, provided for your convenience and seamless navigation. Enjoy exploring!
           </p>
           <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
+            <a href="https://arxiv.org/pdf/2210.13066.pdf">Our paper.</a> 
           </p>
           <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
+            <a href="https://github.com/siwei0729/pax_dev">Our code.</a> 
           </p>
           <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+            Let's explore and innovate together with DaXBench!
           </p>
         </div>
       </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
+    </div>
+    <!--/ Related Links -->
 
   </div>
 </section>
